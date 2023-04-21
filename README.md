@@ -14,6 +14,15 @@ Please disregard any limitations or inconveniences, and enjoy.
 * Game Jolt API
 
 ## Resources
-[under construction]
+* Food  
+  Kenny Food Kit: https://www.kenney.nl/assets/food-kit  
+  Quaternius Food Kit: https://opengameart.org/content/low-poly-food-pack  
+ 
+* Furniture
+  Kenny Furniture Kit: https://www.kenney.nl/assets/furniture-kit  
+
+* Font
+  Cooking Light: https://www.dafont.com/cooking-light.font  
+  
 
 *Authors modified, edited or mixed to better suit the scope of the game.
