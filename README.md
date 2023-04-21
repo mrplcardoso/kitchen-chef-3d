@@ -18,10 +18,10 @@ Please disregard any limitations or inconveniences, and enjoy.
   Kenny Food Kit: https://www.kenney.nl/assets/food-kit  
   Quaternius Food Kit: https://opengameart.org/content/low-poly-food-pack  
  
-* Furniture
+* Furniture  
   Kenny Furniture Kit: https://www.kenney.nl/assets/furniture-kit  
 
-* Font
+* Font  
   Cooking Light: https://www.dafont.com/cooking-light.font  
   
 
