@@ -22,7 +22,8 @@ Please disregard any limitations or inconveniences, and enjoy.
   Kenny Furniture Kit: https://www.kenney.nl/assets/furniture-kit  
 
 * Font  
-  Cooking Light: https://www.dafont.com/cooking-light.font  
+  Cooking Light: https://www.dafont.com/cooking-light.font 
+  Kitchen: https://www.dafont.com/pt/kitchen.font  
   
 * GUI/HUD
   Boxes: https://opengameart.org/content/10-basic-message-boxes
