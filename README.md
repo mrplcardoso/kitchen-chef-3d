@@ -24,5 +24,8 @@ Please disregard any limitations or inconveniences, and enjoy.
 * Font  
   Cooking Light: https://www.dafont.com/cooking-light.font  
   
+* GUI/HUD
+  Boxes: https://opengameart.org/content/10-basic-message-boxes
+  
 
 *Authors modified, edited or mixed to better suit the scope of the game.
