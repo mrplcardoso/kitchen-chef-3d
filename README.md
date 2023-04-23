@@ -26,7 +26,7 @@ Please disregard any limitations or inconveniences, and enjoy.
   Kenny Furniture Kit: https://www.kenney.nl/assets/furniture-kit  
   Quaterinus Furniture Kit: https://opengameart.org/content/lowpoly-house-interior-pack  
   
-* GUI/HUD
+* GUI/HUD  
   Boxes*: https://opengameart.org/content/10-basic-message-boxes
   
 
