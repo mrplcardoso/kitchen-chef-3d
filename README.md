@@ -2,6 +2,9 @@
 This game was made as content for a video game development course, focussed in study on web and 3D game development. 
 Please disregard any limitations or inconveniences, and enjoy.
 
+## Dev/Demo Videos  
+* 23/04/2023 https://user-images.githubusercontent.com/7539766/233858335-3f702858-2ff8-40cc-aee2-d89fd63d8f5a.mp4  
+
 ## Builds
 [under construction]
 
@@ -14,6 +17,10 @@ Please disregard any limitations or inconveniences, and enjoy.
 * Game Jolt API
 
 ## Resources
+* Font  
+  Cooking Light: https://www.dafont.com/cooking-light.font  
+  Kitchen: https://www.dafont.com/pt/kitchen.font  
+  
 * Food  
   Kenny Food Kit: https://www.kenney.nl/assets/food-kit  
   Quaternius Food Kit: https://opengameart.org/content/low-poly-food-pack  
@@ -21,13 +28,9 @@ Please disregard any limitations or inconveniences, and enjoy.
 * Furniture  
   Kenny Furniture Kit: https://www.kenney.nl/assets/furniture-kit  
   Quaterinus Furniture Kit: https://opengameart.org/content/lowpoly-house-interior-pack  
-
-* Font  
-  Cooking Light: https://www.dafont.com/cooking-light.font 
-  Kitchen: https://www.dafont.com/pt/kitchen.font  
   
-* GUI/HUD
-  Boxes: https://opengameart.org/content/10-basic-message-boxes
+* GUI/HUD  
+  Boxes*: https://opengameart.org/content/10-basic-message-boxes
   
 
 *Authors modified, edited or mixed to better suit the scope of the game.
