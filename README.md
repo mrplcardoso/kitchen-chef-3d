@@ -23,7 +23,7 @@ Please disregard any limitations or inconveniences, and enjoy.
   Quaterinus Furniture Kit: https://opengameart.org/content/lowpoly-house-interior-pack  
 
 * Font  
-  Cooking Light: https://www.dafont.com/cooking-light.font 
+  Cooking Light: https://www.dafont.com/cooking-light.font  
   Kitchen: https://www.dafont.com/pt/kitchen.font  
   
 * GUI/HUD
