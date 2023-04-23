@@ -1375,7 +1375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20b22ce4f622c4f4e97e28812350950a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
+  speed: 4
 --- !u!114 &847679168008316921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,7 +1592,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 1, z: 0.5}
+  m_Size: {x: 0.25, y: 1, z: 0.75}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6603325877522803628
 Rigidbody:

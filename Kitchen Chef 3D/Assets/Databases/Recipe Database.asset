@@ -41,3 +41,14 @@ MonoBehaviour:
     - ingredient: 6
       amount: 3x
       prepared: 0
+  - name: French Fries
+    ingredients:
+    - ingredient: 7
+      amount: 3x
+      prepared: 1
+    - ingredient: 6
+      amount: 3x
+      prepared: 0
+    - ingredient: 9
+      amount: 2x
+      prepared: 0
