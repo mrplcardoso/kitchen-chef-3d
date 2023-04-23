@@ -12,20 +12,38 @@ public class PlayerMove : MonoBehaviour
 	Vector3 direction;
 	[SerializeField] float speed = 5f;
 
-	Animator animator;
+	PlayerAnimation animation;
+	public bool waitAnimation;
 
 	private void Awake()
 	{
 		//GetComponente<>() is the method that allows accessing
 		//a component, of a scene object, by code
 		controller = GetComponent<CharacterController>();
-		animator = GetComponentInChildren<Animator>();
+		animation = GetComponentInChildren<PlayerAnimation>();
+
+		animation.OnDropStart += OnAnimationStart;
+		animation.OnDropFinished += OnAnimationFinished;
+		animation.OnPickStart += OnAnimationStart;
+		animation.OnPickFinished += OnAnimationFinished;
 	}
 
 	private void Update()
 	{
+		if(waitAnimation) { return; }
+
 		InputDirection();
 		Move();
+	}
+
+	void OnAnimationStart()
+	{
+		waitAnimation = true;
+	}
+
+	void OnAnimationFinished()
+	{
+		waitAnimation = false;
 	}
 
 	void InputDirection()
@@ -51,6 +69,6 @@ public class PlayerMove : MonoBehaviour
 		{ transform.forward = direction.normalized; }
 
 		controller.Move(velocity * Time.deltaTime);
-		animator.SetFloat("speed", velocity.sqrMagnitude);
+		animation.animator.SetFloat("speed", velocity.sqrMagnitude);
 	}
 }

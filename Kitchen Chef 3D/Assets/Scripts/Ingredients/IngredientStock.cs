@@ -24,7 +24,7 @@ public class IngredientStock : MonoBehaviour, IInteractable
 	{
 		//TODO: Pooling
 		if (!player.holdingIngredient)
-		{ player.CatchIngredient(Instantiate(ingredient)); return; }
+		{ player.CatchIngredient(Instantiate(ingredient, Vector3.down * 5000, Quaternion.identity)); return; }
 
 		Ingredient i = player.DropIngredient();
 		if (i.type == ingredient.type)

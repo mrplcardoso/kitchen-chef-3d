@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Utility.EasingEquations;
 using Utility.Random;
 
 public class RecipeSpawner : MonoBehaviour
@@ -14,7 +15,7 @@ public class RecipeSpawner : MonoBehaviour
 
   public Queue<Recipe> recipeQueue { get; private set; }
   public Recipe currentRecipe {get { return recipeQueue.Peek(); } }
-  public readonly int maxQueue = 7;
+  public readonly int maxQueue = 5;
 
   Transform spawnSpot;
   public float spawnInterval;
@@ -42,10 +43,21 @@ public class RecipeSpawner : MonoBehaviour
     {
       if (pause || recipeQueue.Count >= maxQueue) { yield return null; continue; }
 
+      //TODO: fazer intervalo de tempo diminuir em função do Time.deltaTime (escalado)
+      yield return new WaitForSeconds(spawnInterval);
+
       for(int i = 0; i < boxList.Count; ++i)
       {
-        boxList[i].rectTransform.position += Vector3.right * witdhOffset;
-        yield return null;
+        float t = 0;
+        Vector3 start = boxList[i].rectTransform.position;
+        Vector3 end = boxList[i].rectTransform.position + Vector3.right * witdhOffset;
+        while(t < 1.01f)
+        {
+          boxList[i].rectTransform.position = EasingVector3Equations.Linear(start, end, t);
+          t += 5 * Time.deltaTime;
+          yield return null;
+        }
+        boxList[i].rectTransform.position = end;
       }
 
       int r = RandomStream.NextInt(0, recipeList.Length);
@@ -65,7 +77,6 @@ public class RecipeSpawner : MonoBehaviour
 
       recipeQueue.Enqueue(recipe);
       boxList.Add(next);
-      yield return new WaitForSeconds(spawnInterval);
     }
   }
 }

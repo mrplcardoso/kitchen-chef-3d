@@ -4,7 +4,7 @@ using UnityEngine;
 //Run player interaction's with interactive objects
 public class PlayerInteraction : MonoBehaviour
 {
-	Animator animator;
+	PlayerAnimation animation;
 
 	PlayerDetector detector;
 	public InteractableCanvas interactableCanvas; //Canvas that displays object's infomation
@@ -17,8 +17,10 @@ public class PlayerInteraction : MonoBehaviour
 	{
 		if(interactableCanvas == null) { PrintConsole.Error("No Interactable Canvas attached"); }
 
-		animator = GetComponentInChildren<Animator>();
+		animation = GetComponentInChildren<PlayerAnimation>();
 		detector = GetComponentInChildren<PlayerDetector>();
+
+		animation.OnPickFinished += OnPickFinished;
 	}
 
 	private void Update()
@@ -35,17 +37,21 @@ public class PlayerInteraction : MonoBehaviour
 		}
 	}
 
+	public void OnPickFinished()
+	{
+		ingredient.transform.localPosition = Vector3.zero;
+	}
+
 	public void CatchIngredient(Ingredient ingredient)
 	{
-		animator.SetTrigger("pick");
+		animation.animator.SetTrigger("pick");
 		ingredient.transform.parent = ingredientHolder.transform;
-		ingredient.transform.localPosition = Vector3.zero;
 		this.ingredient = ingredient;
 	}
 
 	public Ingredient DropIngredient()
 	{
-		animator.SetTrigger("drop");
+		animation.animator.SetTrigger("drop");
 		return ingredient;
 	}
 }
