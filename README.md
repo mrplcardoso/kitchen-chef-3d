@@ -14,6 +14,10 @@ Please disregard any limitations or inconveniences, and enjoy.
 * Game Jolt API
 
 ## Resources
+* Font  
+  Cooking Light: https://www.dafont.com/cooking-light.font  
+  Kitchen: https://www.dafont.com/pt/kitchen.font  
+  
 * Food  
   Kenny Food Kit: https://www.kenney.nl/assets/food-kit  
   Quaternius Food Kit: https://opengameart.org/content/low-poly-food-pack  
@@ -21,10 +25,6 @@ Please disregard any limitations or inconveniences, and enjoy.
 * Furniture  
   Kenny Furniture Kit: https://www.kenney.nl/assets/furniture-kit  
   Quaterinus Furniture Kit: https://opengameart.org/content/lowpoly-house-interior-pack  
-
-* Font  
-  Cooking Light: https://www.dafont.com/cooking-light.font  
-  Kitchen: https://www.dafont.com/pt/kitchen.font  
   
 * GUI/HUD
   Boxes: https://opengameart.org/content/10-basic-message-boxes
