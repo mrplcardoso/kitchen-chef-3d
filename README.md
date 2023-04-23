@@ -27,7 +27,7 @@ Please disregard any limitations or inconveniences, and enjoy.
   Quaterinus Furniture Kit: https://opengameart.org/content/lowpoly-house-interior-pack  
   
 * GUI/HUD
-  Boxes: https://opengameart.org/content/10-basic-message-boxes
+  Boxes*: https://opengameart.org/content/10-basic-message-boxes
   
 
 *Authors modified, edited or mixed to better suit the scope of the game.
