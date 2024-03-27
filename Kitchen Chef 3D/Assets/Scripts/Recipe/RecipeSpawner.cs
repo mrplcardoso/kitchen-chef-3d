@@ -14,7 +14,7 @@ public class RecipeSpawner : MonoBehaviour
   public Recipe[] recipeList { get; private set; }
 
   public Queue<Recipe> recipeQueue { get; private set; }
-  public Recipe currentRecipe {get { return recipeQueue.Peek(); } }
+  public Recipe currentRecipe { get { return recipeQueue.Peek(); } }
   public readonly int maxQueue = 5;
 
   Transform spawnSpot;

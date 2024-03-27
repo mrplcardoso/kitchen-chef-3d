@@ -30,6 +30,7 @@ public class PlayerMove : MonoBehaviour
 
 	private void Update()
 	{
+		//TODO: Implement InputHandler and stop input checking
 		if(waitAnimation) { return; }
 
 		InputDirection();

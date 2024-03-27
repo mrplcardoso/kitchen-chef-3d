@@ -6,5 +6,6 @@ using UnityEngine;
 public struct Recipe
 {
   public string name;
+  public float cookingTime;
   public List<RecipeIngredient> ingredients;
 }
